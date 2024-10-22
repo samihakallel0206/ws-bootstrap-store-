@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - UrbanCrafts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-3">
+        <nav class="navbar navbar-expand-md navbar-dark container">
+            <a class="navbar-brand" href="index.html">UrbanCrafts</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible navbar content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="order.html" class="btn btn-primary ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 5H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 14H4a.5.5 0 0 1-.491-.408L1.01 1.607 0 1.5zm3.14 3.5L4.89 13h7.72l1.28-6.5H3.14zM5 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm7 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                    </svg>
+                    Cart
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <p class="text-center mb-5">Have questions, inquiries, or want to collaborate? We'd love to hear from you!</p>
+        <form class="row g-3">
+            <!-- Name -->
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+            </div>
+
+            <!-- Subject -->
+            <div class="col-12">
+                <label for="inputSubject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="inputSubject" placeholder="Subject of your message">
+            </div>
+
+            <!-- Message -->
+            <div class="col-12">
+                <label for="inputMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="6" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 UrbanCrafts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
